@@ -1614,3 +1614,19 @@ li {
     min-height: 34px;
   }
 }
+
+@media only screen and (max-width: 1024px){
+  .capstone-right-content .search-bar .search .search__input{
+    width: 130px;
+  }
+  .stat__item{
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .stat__container{
+    display: block;
+  }
+  .video__list{
+    height: 300px;
+  }
+}
