@@ -729,11 +729,6 @@ button#trigger-overlay {
   background: var(--bg-color);
 }
 
-/* VIDEO  */
-new-block {
-  background: var(--bg-color);
-}
-
 .video__list {
   background-image: url(../img/banner3.jpg);
   background-position: center center;
@@ -1619,7 +1614,6 @@ li {
   .capstone-right-content .search-bar .search .search__input{
     width: 135px;
   }
-  
   .stat__item{
     padding: 10px 15px;
     width: 100%;
@@ -1629,5 +1623,44 @@ li {
   }
   .video__list{
     height: 300px;
+  }
+  .stats {
+    margin-top: -40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .capstone-banner .bannerCapstone-info h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .btn-white, .btn-style {
+    padding: 10px 21px;
+  }
+  .capstone-banner{
+    min-height: 450px;
+  }
+  .title-w3l {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .agent-block-image {
+    min-height: 200px;
+  }
+  .w3l-footer-29-main .main-social-footer-29 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .capstone-banner{
+    min-height: 600px;
+  }
+  .capstone-banner .bannerCapstone-info h3 {
+    font-size: 40px;
+    line-height: 50px;
   }
 }
