@@ -161,10 +161,10 @@ p {
 
 /* CAROUSEL  */
 .capstone-banner {
-  background-size: 100% 100%;
+  background-size: cover;
   background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: initial;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   min-height: 700px;
 }
@@ -939,13 +939,6 @@ button#trigger-overlay {
 }
 
 /* TESTIMONIALS  */
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .w3l-agency-test .testimonial-content {
   max-width: 700px;
@@ -1627,6 +1620,9 @@ li {
   .stats {
     margin-top: -40px;
   }
+  .capstone-banner{
+    background-position: center right calc(25%);
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1658,6 +1654,7 @@ li {
 @media only screen and (max-width: 800px){
   .capstone-banner{
     min-height: 600px;
+    background-position: center right calc(30%);
   }
   .capstone-banner .bannerCapstone-info h3 {
     font-size: 40px;
