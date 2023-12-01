@@ -161,7 +161,7 @@ p {
 
 /* CAROUSEL  */
 .capstone-banner {
-  background-size: cover;
+  background-size: 100% 100%;
   background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)), url(../img/banner1.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: initial;
